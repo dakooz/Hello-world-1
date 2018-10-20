@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class Hello{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		String hello,name,world;
+
+		System.out.print("Type Hello in your language : ");
+		hello=sc.nextLine();
+		System.out.print("Input your name : ");
+		name=sc.nextLine();
+		System.out.print("Type world in your language : ");
+		world=sc.nextLine();
+
+		System.out.print(hello+name+world);
+	}
+}
